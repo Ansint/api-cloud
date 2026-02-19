@@ -4,7 +4,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "ansint.sso.v1.ssov1";
+option go_package = "github.com/Ansint/api-cloud/gen/go/sso/v1;ansintssov1";
 
 service Auth {
     rpc Register (RegisterRequest) returns (RegisterResponse);
